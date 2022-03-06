@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Mulish:wght@200;400&display=swap');
+body {
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif !important;
+}
+h1{
+  font-weight: 300 !important;
+}
+h2{
+  font-weight: 100 !important;
+}
+h3{
+  font-weight: 100 !important;
+  font-size: 20px !important;
+}
+
+p{
+  font-family: 'Mulish', sans-serif !important;
+}
+
+header {
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
+
+nav.navbar {
+  display: flex;
+  background-color: #da94aa;
+  height: 65px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.menu li > a {
+  background-color: #da94aa;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+  max-width: 100%;
+  cursor: pointer;
+}
+.menu li > a:hover {
+  color: #da94aa;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+.menu > li {
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.menu > li > ul {
+  display: none;
+}
+.menu > li:hover > ul {
+  display: block;
+}
+
+.logo{
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.description{
+    justify-content: center;
+    text-align: center;
+} 
+
+.description>h1{
+    color: #DC5A78;
+    text-decoration: dotted ;
+}
+section.pasteles{
+    padding-left: 10px;
+    margin-top: 50px;
+}
+section.pasteles>h4{
+    text-align: center;
+    color: #DC5A78;
+    font-size: 22px;
+}
+.cakeBox{
+    margin: 10px 0 10px 0;
+}
+
+img {
+    display: flex;
+    height: 250px;
+    width: 275px;
+}
+
+.img-carousel{
+  height: 500px !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  background-size: cover;
+  width: 100%;
+  height: 590px;
+}
+label{
+    text-align: center;
+    height: 10px;
+    justify-content: center;
+    display: flex;
+    flex: none;
+}
+
+.spanName{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgBox{
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.card-body{
+  background-color: #dc5a785d;
+}

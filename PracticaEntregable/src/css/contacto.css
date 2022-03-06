@@ -1,0 +1,15 @@
+.sucursales>h3{
+    text-align: center;
+}
+
+.col-md-12.row.cajas {
+    align-content: center;
+    margin: 10px;
+}
+
+.span-icon{
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center;
+    margin-left: 10px;
+    word-break: break-word;
+}
